@@ -3,7 +3,7 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.Write("Введите натуральное число : ");
+Console.Write("Введите натуральное число :  ");
 int num = int.Parse(Console.ReadLine());
 int counter = 2;
 if (num <= 1)
