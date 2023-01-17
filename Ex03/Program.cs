@@ -6,11 +6,11 @@
 
 Console.Write("Введите число 1: ");
 int num1 = int.Parse(Console.ReadLine());
-if (num1 %2 == 0)
+if (num1 % 2 == 0)
 {
     Console.WriteLine(num1 + " - это чётное число!");
 }
-else 
+else
 {
     Console.WriteLine(num1 + " - это нечётное число!");
 }

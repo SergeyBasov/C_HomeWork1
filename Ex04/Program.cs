@@ -5,17 +5,17 @@
 
 Console.Write("Введите натуральное число : ");
 int num = int.Parse(Console.ReadLine());
-int num2 = 2;
+int counter = 2;
 if (num <= 1)
 {
-    Console.Write("Вы ввели число "+num+", в нем нет чётных положительных чисел : "); 
+    Console.Write("Вы ввели число " + num + ", в нем нет чётных положительных чисел : ");
 }
 else
 {
-    Console.Write("Все чётные числа из числа "+num+" в порядке возрастания : ");
+    Console.Write("Все чётные числа из числа " + num + " в порядке возрастания : ");
 }
-while (num2 <= num) 
+while (counter <= num)
 {
-    Console.Write(num2+ ", ");
-    num2 = num2 + 2;
+    Console.Write(counter + ", ");
+    counter = counter + 2;
 }
