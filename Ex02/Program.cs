@@ -10,17 +10,13 @@ Console.Write("Введите число 2: ");
 int num2 = int.Parse(Console.ReadLine());
 Console.Write("Введите число 3: ");
 int num3 = int.Parse(Console.ReadLine());
-int Max = num1;
+int max = num1;
 if (num1 < num2)
-    {
-        Max = num2;
-    }
-    else
-    {
-        Max = num1;
-    }
-if (Max < num3)
-    { 
-        Max = num3;
-    }
-Console.WriteLine(Max+" - максимальное из этих трех введеных чисел");
+{
+    max = num2;
+}
+if (max < num3)
+{
+    max = num3;
+}
+Console.WriteLine(max + " - максимальное из этих трех введеных чисел");
